@@ -51,8 +51,8 @@
       </a>
       <nav id="navbar" class="navbar">
         <ul>            
-          <li><a href="#hero">Inicio</a></li>
-          <li><a href="#about">Mi información</a></li>
+          <li><a href="/dashboard">Inicio</a></li>
+          <li><a href="/materias">Materias</a></li>
           <!--<li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
@@ -132,7 +132,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
-    <div class="container">
+    <!--<div class="container">
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
           <a href="index.html" class="logo d-flex align-items-center">
@@ -182,11 +182,11 @@
         </div>
 
       </div>
-    </div>
+    </div>-->
 
     <div class="container mt-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>TutorVirtual</span></strong>. Todos los derechos reservados
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->

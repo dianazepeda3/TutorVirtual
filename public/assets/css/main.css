@@ -1947,6 +1947,10 @@ section {
   padding-bottom: 60px;
 }
 
+.fondo {
+  background-color: #fff;
+}
+
 @media (min-width: 1200px) {
   .hero .icon-boxes:before {
     content: "";

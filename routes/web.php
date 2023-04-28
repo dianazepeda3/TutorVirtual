@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
+Route::get('/materias', function () {
+    return view('materias');
+});
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
