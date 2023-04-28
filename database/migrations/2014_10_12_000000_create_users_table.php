@@ -16,7 +16,13 @@ return new class extends Migration
             $table->string('name');
             //$table->string('email')->unique();
             $table->string('codigo')->unique();
-            $table->timestamp('email_verified_at')->nullable();
+            $table->string('carrera');
+            $table->string('ciclo')->nullable();
+            $table->decimal('promedio')->nullable();
+            $table->integer('creditos_requeridos')->nullable();
+            $table->integer('creditos_adquiridos')->nullable();
+            $table->integer('creditos_faltantes')->nullable();
+            //$table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->foreignId('current_team_id')->nullable();
