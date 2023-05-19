@@ -78,14 +78,15 @@
                 <strong>Nombre Completo:</strong> {{ Auth::user()->name }}<br>
                 <strong>Código:</strong> {{ Auth::user()->codigo }}<br>
                 <strong>Carrera:</strong> {{ Auth::user()->carrera }}<br>
-                <strong>Último ciclo:</strong> {{ Auth::user()->ciclo }}<br>
+                <!--<strong>Último ciclo:</strong> {{ Auth::user()->ciclo }}<br>
                 <strong>Promedio:</strong> {{ Auth::user()->promedio }}<br>    
                 <strong>Créditos Requeridos:</strong> {{ Auth::user()->creditos_requeridos }}<br>
                 <strong>Créditos Adquiridos:</strong> {{ Auth::user()->creditos_adquiridos }}<br>
-                <strong>Créditos Faltates:</strong> {{ Auth::user()->creditos_faltantes }}<br>            
+                <strong>Créditos Faltates:</strong> {{ Auth::user()->creditos_faltantes }}<br>            -->
               </p>              
-            </div><!-- End Stats Item -->            
-          </div>
+            </div><!-- End Stats Item --> <br>
+            <a href="{{ route('info') }}" class="btn btn-secondary">Solicitar Recomendación</a>           
+          </div>          
 
         </div>
 

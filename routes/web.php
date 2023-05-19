@@ -17,9 +17,18 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-Route::get('/materias', function () {
+Route::get('/recomendacion', function () {
     return view('materias');
-});
+})->name('materia');
+
+Route::get('/recomendacion2', function () {
+    return view('materias2');
+})->name('mat2');
+
+
+Route::get('/add-info', function () {
+    return view('add-info');
+})->name('info');
 
 Route::middleware([
     'auth:sanctum',
